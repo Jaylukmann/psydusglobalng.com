@@ -1,0 +1,736 @@
+/*Global Styling*/
+html,body{
+  padding:0 auto;
+  margin:0 auto;
+  background-color:#6495ed;
+   overflow-x: visible;
+   overflow-y: visible;
+   max-width: 100%;
+   background: rgb(0,36,36);
+   background: linear-gradient(90deg, rgba(0,36,36,1) 0%, rgba(0,212,255,1) 49%, rgba(32,121,9,1) 94%);
+
+   }
+
+
+.header{
+  background-color:#6495ed;
+  height:5em;
+  position: fixed;
+  width:100%;
+  color:#fff;
+}
+.dropdown button{
+  font-weight:bold;
+  background-color:#6495ed; 
+  color:#fff; 
+}
+.nav-container{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+#logo{
+width:5em; 
+height:3.2em;
+}
+.brand{
+  font-family:'Roboto';
+  line-height: 2.7;
+}
+.brand a{
+  text-decoration: none;
+}
+#director{
+  padding-top:17px;
+   line-height: 2.7;
+}
+. a{
+  text-decoration: none;
+}
+
+.nav{
+  padding-top:17px;
+  font-family:'Roboto';
+  line-height: 2.7;
+}
+
+.nav a{
+   text-decoration: none;
+   font-size: 18px;
+
+}
+
+.nav a:hover:not(.active) {
+  background-color: #FF1493;
+}
+
+.nav a .active {
+  background-color:#FF1493 ;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    padding:0;
+    margin:0;
+   }
+.wrapper{
+  width:100%;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color:#6495ed;
+  color:#fff;
+  padding-right:20px;
+  font-size: 12px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:green;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:#fff;
+ padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 80px;
+  float:left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:#FF1493;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #6495ed;
+}
+
+.section1-peptalk{
+  padding-top: 6em;
+  color:#fff;
+  text-align:center;
+  border:solid;
+  border: 0 0 1em 0;
+  border-color:#fff;
+}
+.peptalk-paragraph{
+   text-align:center;
+    color:#fff;
+}
+.banner-image{
+  width: 50%;
+  height:50%;
+}
+
+
+.section2-btn{
+  text-align: center;
+}
+
+.whatsapp{
+  background-color:#FF1493;
+  color:blue; 
+  height:2.5em;
+  border-radius:25px;
+}
+
+.section4-whatsapp{
+  background-color: #fff;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:blue;
+  border:solid;
+  border:0 1em 0 1em;
+  border-color:#fff;
+}
+.section5-unique{
+  padding:0;
+  margin:0;
+  list-style-type: none;
+  border:solid 1px;
+  border-bottom-color:#FFF;
+   background-color:#fff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card-container{
+   display:grid;
+   grid-gap: 10em;
+   grid-template-columns:1fr 1fr 1fr;
+   
+}
+.cards{
+  box-shadow:0px 3px 3px 3px grey;
+}
+
+.card-titles{
+  text-align: center;
+  color:#FF1493;
+}
+.paragraph{
+  color:#fff;
+  text-align: justify;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+}
+.section6-branch{
+color:#fff;
+background: rgb(0,36,36);
+background: linear-gradient(90deg, rgba(0,36,36,1) 0%, rgba(0,212,255,1) 49%, rgba(32,121,9,1) 94%);
+}
+
+.branch-container{
+  display:grid;
+   grid-gap: 1em;
+   grid-template-columns:1fr 1fr;
+}
+
+.worker-image{
+ width:100%;
+ height:100%;
+ } 
+
+.section7-calculator{
+background-color:#FF1493;/* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:#fff;
+  border:solid 3px;
+  border-bottom-color:#FFF;
+}
+.calculator-container{
+  display:grid;
+   grid-gap: 1em;
+   grid-template-columns:1fr 1fr;
+}
+#worker-calculator{
+  width:100%;
+  height:100%;
+}
+
+
+.section8-links-footer {
+  background-color:#000;
+  color:#fff;
+  text-align: center;
+    }
+
+    .section8-links-footer a:link {
+      color:#fff;
+    }
+.footer-container{
+ background-color:#000;
+  color:#fff; 
+  display:grid;
+   grid-gap: 1em;
+   grid-template-columns:1fr 1fr;
+}
+ .links-container{
+ display:grid;
+   grid-gap: 4em;
+   grid-template-columns:1fr 1fr 1fr 1fr; 
+  }
+
+.social-links{
+padding-top: 2%;
+color:#FF1493;
+width:2em;
+height:2em;
+}
+
+ul {
+list-style-type: none;
+}
+.pink{
+  color:#FF1493;
+}
+.black{
+  color:#000;
+}
+.blue{
+  color:blue;
+}
+.white{
+  color:#fff;
+}
+.title{
+  padding-top: 13px;
+  text-align: center;
+}
+ .address{
+  padding-left: 3.1em;
+ }
+
+
+@media only screen and (min-width:900px) and (max-width:1440px){
+
+html,body{
+  padding:0 auto;
+  margin:0 auto;
+ /* background-color:#6495ed;*/
+   overflow-x: hidden;
+   overflow-y: visible;
+   max-width: 100%;
+   background: rgb(0,36,36);
+background: linear-gradient(90deg, rgba(0,36,36,1) 0%, rgba(0,212,255,1) 49%, rgba(32,121,9,1) 94%);
+}
+
+.header{
+  background-color:#6495ed;
+  height:4.3em;
+ /* padding-right: 3.7em;*/
+}
+.section1-peptalk{
+  padding-top: 8em;
+  color:#fff;
+  text-align:center;
+  border:solid;
+  border-color:#fff;
+}
+
+.brand{
+  padding-bottom:1px;
+  color:#fff;
+  font-family:'Roboto';
+  line-height: 2.7;
+}
+#logo{
+padding-left:2em;
+padding-bottom: 0;
+width:5em; 
+height:4.3em;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color:#6495ed;;
+  color:#fff;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+   float:right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+ display: none;
+position: absolute;
+  background-color:green;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:#fff;
+ padding: 12px 16px;
+  min-width: 150px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:#FF1493;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #6495ed;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding:0;
+    margin:0;
+   }
+..wrapper{
+  width:100%;
+}
+  .section1-peptalk{
+  padding-top: 7em;
+  color:#fff;
+  text-align:center;
+  border:solid;
+  border: 1em 0 1em 0;
+  border-color:#fff;
+}
+.peptalk-paragraph{
+   text-align: center;
+}
+.banner-image{
+  width: 50%;
+  height:50%;
+}
+
+
+.section2-btn{
+  text-align: center;
+}
+
+.btn{
+  background-color:#FF1493;
+  color:blue;
+  text-align:center; 
+  height:2.5em;
+  border-radius:25px;
+}
+
+.section4-whatsapp{
+  background-color: #fff;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:blue;
+  text-align: center;
+  border:solid;
+  border:0 1em 0 1em;
+  border-color:#fff;
+}
+.section5-unique{
+  padding:0;
+  margin:0;
+  list-style-type: none;
+  border:solid 1px;
+  border-bottom-color:#FF1493;
+   background-color:#fff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card-container{
+   display:grid;
+   grid-gap: 10em;
+   grid-template-columns:1fr 1fr 1fr;
+   
+}
+.cards{
+  box-shadow:0px 3px 3px 3px grey;
+}
+
+.card-titles{
+  text-align: center;
+  color:#FF1493;
+}
+.paragraph{
+  padding-left:4em;
+  color:#fff;
+}
+.section6-branch{
+color:#fff;
+background-color:; #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.branch-container{
+  display:grid;
+   grid-gap: 1em;
+   grid-template-columns:1fr 1fr;
+}
+
+.worker-image{
+ width:100%;
+ height:100%;
+ } 
+
+.section7-calculator{
+background-color:#FF1493;/* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:#fff;
+  border:solid 3px;
+  border-bottom-color:#FFF;
+}
+.calculator-container{
+  display:grid;
+   grid-gap: 1em;
+   grid-template-columns:1fr 1fr;
+}
+#worker-calculator{
+  width:100%;
+  height:100%;
+}
+
+
+.section8-links-footer {
+  background-color:#000;
+  color:#fff;
+  text-align: center;
+    }
+
+    .section8-links-footer a:link {
+      color:#fff;
+    }
+.footer-container{
+ background-color:#000;
+  color:#fff; 
+  display:grid;
+   grid-gap: 1em;
+   grid-template-columns:1fr 1fr;
+}
+ .links-container{
+ display:grid;
+   grid-gap: 4em;
+   grid-template-columns:1fr 1fr 1fr 1fr; 
+  }
+
+.social-links{
+padding-top: 2%;
+color:#FF1493;
+width:2em;
+height:2em;
+}
+
+ul {
+list-style-type: none;
+}
+.pink{
+  color:#FF1493;
+}
+.black{
+  color:#000;
+}
+.blue{
+  color:blue;
+}
+.white{
+  color:#fff;
+}
+.paragraph{
+  padding-left:1.5em;
+  padding-right:1.5em;
+}
+.title{
+  padding-top: 13px;
+  text-align: center;
+}
+ .address{
+  padding-left: 3.1em;
+ }
+}
+/*styling for tablet*/
+@media only screen and (min-width:768px) and (max-width: 899px){
+  .section1-peptalk{
+  padding-top: 7em;
+  color:#fff;
+  text-align:center;
+  border:solid;
+  border: 1em 0 1em 0;
+  border-color:#fff;
+}
+.header{
+  background-color:#6495ed;
+  height:3.5em;
+}
+#logo{
+padding-bottom: 0;
+width:5em; 
+height:3.5em;
+}
+.paragraph{
+  padding-left:1.5em;
+  padding-right:1.5em;
+}
+.title{
+  padding-top: 13px;
+  text-align: center;
+}
+  .dropbtn {
+  background-color: #6495ed;
+  color:#fff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color:green;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+  .dropdown-content a {
+  color:#fff;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:#FF1493;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #6495ed;
+}
+
+.banner-image{
+  width: 50%;
+  height:50%;
+}
+  .links-container{
+  display:block;
+  }
+
+  .calculator-container{
+   display:block;
+}
+.card-container{
+    display:block;
+}
+.btn{
+  background-color:#FF1493;
+  color:blue;
+  text-align:center; 
+  height:2.5em;
+  border-radius:25px;
+}
+.branch-container{
+  display:block;
+}
+ .footer-container{
+ background-color:#000;
+  color:#fff; 
+  display:block;
+}
+
+}
+ 
+
+
+
+/*styling for mobile phones*/
+@media only screen and (min-width:240px) and (max-width: 767px){
+  .section1-peptalk{
+  padding-top: 8em;
+  color:#fff;
+  text-align:center;
+  border:solid;
+  border: 1em 0 1em 0;
+  border-color:#fff;
+}
+#logo{
+padding-bottom: 0;
+width:5em; 
+height:5em;
+}
+.paragraph{
+  padding-left:1.5em;
+  padding-right:1.5em;
+}
+.title{
+  padding-top: 13px;
+  text-align: center;
+}
+  .dropbtn {
+  background-color: #6495ed;
+  color:#fff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color:green;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+  .dropdown-content a {
+  color:#fff;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:#FF1493;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #6495ed;
+}
+.banner-image{
+  width: 50%;
+  height:50%;
+}
+  .links-container{
+  display:block;
+  }
+
+  .calculator-container{
+   display:block;
+}
+.card-container{
+    display:block;
+}
+.branch-container{
+  display:block;
+}
+ .footer-container{
+ background-color:#000;
+  color:#fff; 
+  display:block;
+}
+}

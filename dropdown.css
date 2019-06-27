@@ -1,0 +1,95 @@
+/**************************************
+HELP PROVIDED BY DARREN KYNASTON TREEHOUSE
+Hi Adam - I'm sure you've got this one under
+wraps now - but it doesn't seem to clear on the 
+forum what needed doing. You had the id="navlist" 
+in the wrong element really - in needed to be within the <li> below is (where the actual dropdown list is held aka it's parent) - you then needed to give it's parent a position=relative and then the sub_navlist a position=absolute - this will solve the problem of the dropdown pushing content out of the way for you. 
+Darren
+***************************************/
+
+#navlist {
+  position: relative;
+}
+#sub_navlist {
+  position: absolute;
+  display: none;
+  width: 400px;
+  text-align: left;
+}
+#sub_navlist li {
+  padding: 5px 0;
+}
+#navlist:hover > #sub_navlist {
+  display: block;
+}
+
+/**************************************
+CSS BELOW TO MAKE THE NAV HOROZONTAL
+***************************************/
+nav ul {
+  text-align: right;
+  margin-right: 30px;
+}
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+/**************************************
+CSS BELOW FOR DECORATION - so you can
+see whats going on a little better
+***************************************/
+ul {
+  background-color: orange;
+}
+#sub_navlist {
+  margin: 10 0;
+  padding: 0;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color:#6495ed;
+  color:#fff;
+  padding-right:20px;
+  font-size: 12px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+   float:right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:green;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:#fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:#FF1493;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #6495ed;
+}
