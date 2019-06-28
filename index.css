@@ -143,12 +143,12 @@ h1,h2,h3,h4,h5,h6 {
   width: 50%;
   height:50%;
 }
-
-
 .section2-btn{
   text-align: center;
 }
-
+.xup{
+text-align:center;
+}
 .whatsapp{
   background-color:#FF1493;
   color:blue; 
